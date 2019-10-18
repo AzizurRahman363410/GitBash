@@ -25,3 +25,8 @@ Go Project folder and Open git bash Here. then fllow the instractions
 --> git push -u origin master
 
 
+5. Clone the the project 
+Go to the folder where you want to save project 
+and Open git bash
+
+--> git clone https://github.com/AzizurRahman363410/GitBash.git
