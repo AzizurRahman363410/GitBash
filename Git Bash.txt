@@ -1,0 +1,25 @@
+***********************************
+1. For git bash global account 
+--> git config --global user.name "Azizur"
+--> git config --global user.email "azizur.rahman363410@gmail.com"
+*****************
+2. For local git bash account 
+--> git config user.name "Azizur"
+--> git config user.email "azizur.rahman363410@gmail.com"
+
+*****************
+3. Check git bash name and email
+--> git config --list
+
+
+*****************
+4. Upload file to GitHub command line
+Open git bash Here
+
+--> git init     # for initailize file
+--> git add .    #  or --> git --all , All file will goes to staging area, for check --> git status
+--> git commit -m "First Commit"
+-->
+-->
+
+
