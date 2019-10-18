@@ -19,7 +19,7 @@ Open git bash Here
 --> git init     # for initailize file
 --> git add .    #  or --> git --all , All file will goes to staging area, for check --> git status
 --> git commit -m "First Commit"
--->
--->
+--> git remote add origin https://github.com/AzizurRahman363410/GitBash.git 
+--> git push -u origin master
 
 
