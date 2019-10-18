@@ -1,4 +1,6 @@
 ***********************************
+After Instaling Git Bash
+
 1. For git bash global account 
 --> git config --global user.name "Azizur"
 --> git config --global user.email "azizur.rahman363410@gmail.com"
@@ -14,7 +16,7 @@
 
 *****************
 4. Upload file to GitHub command line
-Open git bash Here
+Go Project folder and Open git bash Here. then fllow the instractions
 
 --> git init     # for initailize file
 --> git add .    #  or --> git --all , All file will goes to staging area, for check --> git status
