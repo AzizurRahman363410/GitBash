@@ -38,3 +38,5 @@ and Open git bash
 --> git remote add origin https://github.com/AzizurRahman363410/GitBash.git 
 --> git fetch origin master
 --> git merge origin master
+Or
+--> git push -u origin master -f
