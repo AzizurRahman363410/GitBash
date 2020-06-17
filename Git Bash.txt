@@ -33,9 +33,10 @@ and Open git bash
 
 6. When you want to push some folder and file in existing repository, follow those steps
 --> git init     # for initailize file
+--> git remote add origin https://github.com/AzizurRahman363410/GitBash.git
+--> git pull origin master
 --> git add .    #  or --> git --all , All file will goes to staging area, for check --> git status
 --> git commit -m "First Commit"
---> git remote add origin https://github.com/AzizurRahman363410/GitBash.git 
 --> git fetch origin master
 --> git merge origin master
 Or
