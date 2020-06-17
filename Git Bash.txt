@@ -1,3 +1,4 @@
+
 ***********************************
 After Instaling Git Bash
 
@@ -23,6 +24,9 @@ Go Project folder and Open git bash Here. then fllow the instractions
 --> git commit -m "First Commit"
 --> git remote add origin https://github.com/AzizurRahman363410/GitBash.git 
 --> git push -u origin master
+
+# remove git 
+--> rm -rf .git
 
 
 5. Clone the the project 
