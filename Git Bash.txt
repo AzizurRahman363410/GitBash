@@ -27,6 +27,8 @@ Go Project folder and Open git bash Here. then fllow the instractions
 
 # remove git 
 --> rm -rf .git
+# checkout from branch'
+--> git checkout dev ,OR git checkout -t -b dev  # here dev is branch name
 
 
 5. Clone the the project 
