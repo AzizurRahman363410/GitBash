@@ -47,3 +47,20 @@ and Open git bash
 --> git merge origin master
 Or
 --> git push -u origin master -f
+
+7. Change the URI (URL) for a remote Git repository?
+
+  # View existing remotes
+ --> git remote -v
+  # origin  https://github.com/user/repo.git (fetch)
+  # origin  https://github.com/user/repo.git (push)
+  
+  # Change the 'origin' remote's URL
+  --> git remote set-url origin https://github.com/user/repo2.git
+  
+  # Verify new remote URL
+  --> git remote -v
+  # origin  https://github.com/user/repo2.git (fetch)
+  # origin  https://github.com/user/repo2.git (push)
+
+
