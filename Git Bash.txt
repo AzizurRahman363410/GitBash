@@ -63,4 +63,10 @@ Or
   # origin  https://github.com/user/repo2.git (fetch)
   # origin  https://github.com/user/repo2.git (push)
 
-
+8. check which file conflict
+--> git diff --name-status --diff-filter=U
+# git marge 2 branch 
+(mybrach)--> git merge master
+or (mybrach)--> git pull origin master
+# if conflict 
+ --> git merge --abort
