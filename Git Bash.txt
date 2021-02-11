@@ -76,7 +76,7 @@ or (mybrach)--> git pull origin master
 
 
 
-9.To check URL
+9.To check URL   # For more information visit: https://docs.github.com/en/github/using-git/changing-a-remotes-url
 1. --> git remote -v
 To change URL(https://github.com/arshakil/docker.git (fetch))
 2. --> git remote set-url origin git@github.com:arshakil/docker.git 
