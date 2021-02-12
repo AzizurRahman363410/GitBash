@@ -63,26 +63,34 @@ Or
   # origin  https://github.com/user/repo2.git (fetch)
   # origin  https://github.com/user/repo2.git (push)
 
+ # To check which email is use
+ --> git config user.email
+ # To change user config email # when you want to change email 
+ --> git config user.email "azizur.rahman363410@gmail.com"
+
+
 8. check which file conflict
 --> git diff --name-status --diff-filter=U
 # git marge 2 branch 
-
-
 
 (mybrach)--> git merge master
 or (mybrach)--> git pull origin master
 # if conflict 
  --> git merge --abort
 
+9. How to Delete a Git Branch Both Locally and Remotely #https://www.freecodecamp.org/news/how-to-delete-a-git-branch-both-locally-and-remotely/
+
+// delete branch locally
+ --> git branch -d localBranchName
+
+// delete branch remotely
+ --> git push origin --delete remoteBranchName
 
 
-9.To check URL   # For more information visit: https://docs.github.com/en/github/using-git/changing-a-remotes-url
-1. --> git remote -v
-To change URL(https://github.com/arshakil/docker.git (fetch))
-2. --> git remote set-url origin git@github.com:arshakil/docker.git 
-   --> git remote add origin git@github.com:arshakil/docker.git 
-To check which email is use
-3. --> git config user.email
-To change user config email # when you want to change email 
-4. --> git config user.email "azizur.rahman363410@gmail.com"
+
+
+
+
+
+
 
