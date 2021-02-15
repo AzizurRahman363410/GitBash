@@ -14,6 +14,10 @@ After Instaling Git Bash
 3. Check git bash name and email
 --> git config --list
 
+ # To check which email is use
+ --> git config user.email
+ # To change user config email # when you want to change email 
+ --> git config user.email "azizur.rahman363410@gmail.com"
 
 *****************
 4. Upload file to GitHub command line
@@ -62,11 +66,6 @@ Or
   --> git remote -v
   # origin  https://github.com/user/repo2.git (fetch)
   # origin  https://github.com/user/repo2.git (push)
-
- # To check which email is use
- --> git config user.email
- # To change user config email # when you want to change email 
- --> git config user.email "azizur.rahman363410@gmail.com"
 
 
 8. check which file conflict
