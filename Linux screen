@@ -1,0 +1,8 @@
+# Linux screen create 
+
+$ sudo apt install screen
+
+1. check screen list $ screen -ls
+2. Go screen $ screen -r screen_name OR screen -d -r screen_name
+3. detach from screen $ ctrl+A+D
+4. Create new Screen $ screen -S screen_name
